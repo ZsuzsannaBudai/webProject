@@ -1,0 +1,28 @@
+.logo {
+  height: 200px;
+  > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.menu {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 44px;
+  margin-left: 16px;
+  margin-right: 16px;
+  > button {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    background-color: darkcyan;
+  }
+  #fo:hover, #akt:hover, #idopont:hover, #kapcsolat:hover, #ref:hover {
+    background-color: plum;
+  }
+}

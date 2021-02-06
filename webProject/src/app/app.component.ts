@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'webProject';
+  getImgURL(): string {
+    return 'https://metromidsayap-water.gov.ph/wp-content/uploads/2016/11/Header-Background.jpg';
+  }
 }
