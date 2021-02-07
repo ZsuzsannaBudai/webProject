@@ -19,17 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd04d716-b175-48b8-a2ae-7548d6f33298" name="Default Changelist" comment="init">
-      <change beforePath="$PROJECT_DIR$/webProject/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/webProject/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webProject/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/webProject/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webProject/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/webProject/package.json" afterDir="false" />
+    <list default="true" id="dd04d716-b175-48b8-a2ae-7548d6f33298" name="Default Changelist" comment="menu and logo added">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webProject/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/webProject/src/app/app-routing.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webProject/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/webProject/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webProject/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/webProject/src/app/app.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webProject/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/webProject/src/app/app.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webProject/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/webProject/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webProject/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/webProject/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webProject/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/webProject/src/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webProject/src/app/main-page/main-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/webProject/src/app/main-page/main-page.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +49,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Users\kohia\WebstormProjects\webProject\webProject\node_modules\typescript\lib" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kohia\WebstormProjects\webProject\webProject\src\images" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -61,7 +63,8 @@
       <option name="presentableId" value="Default" />
       <updated>1612615126340</updated>
       <workItem from="1612615127398" duration="1454000" />
-      <workItem from="1612618564101" duration="4523000" />
+      <workItem from="1612618564101" duration="4942000" />
+      <workItem from="1612692790039" duration="7622000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1612615442006</created>
@@ -70,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612615442006</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="menu and logo added">
+      <created>1612623376091</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1612623376091</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,20 +100,25 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="menu and logo added" />
+    <option name="LAST_COMMIT_MESSAGE" value="menu and logo added" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="821" y="432" key="Github.Dialog.Accounts.Choose" timestamp="1612615453593">
+    <state x="821" y="432" key="Github.Dialog.Accounts.Choose" timestamp="1612623400403">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="821" y="432" key="Github.Dialog.Accounts.Choose/0.0.1920.1040@0.0.1920.1040" timestamp="1612615453593" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1612615449982">
+    <state x="821" y="432" key="Github.Dialog.Accounts.Choose/0.0.1920.1040@0.0.1920.1040" timestamp="1612623400403" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1612623396723">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612615449982" />
-    <state x="823" y="405" width="348" height="298" key="org.angular.cli.generate" timestamp="1612618655507">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612623396723" />
+    <state x="823" y="405" width="348" height="298" key="org.angular.cli.generate" timestamp="1612700021714">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="823" y="405" width="348" height="298" key="org.angular.cli.generate/0.0.1920.1040@0.0.1920.1040" timestamp="1612618655507" />
+    <state x="823" y="405" width="348" height="298" key="org.angular.cli.generate/0.0.1920.1040@0.0.1920.1040" timestamp="1612700021714" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1612700185342">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1612700185342" />
   </component>
 </project>

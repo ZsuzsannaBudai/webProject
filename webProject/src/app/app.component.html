@@ -1,12 +1,13 @@
 <div class="logo">
   <img [src]="getImgURL()">
 </div>
+<div class="cim">Itt lesz a neve a cégnek</div>
 <div class="menu">
-  <button mat-raised-button id="fo">Főmenü</button>
-  <button mat-raised-button id="akt">Aktuális</button>
-  <button mat-raised-button id="ref">Referencia</button>
-  <button mat-raised-button id="idopont">Időpontfoglalás</button>
-  <button mat-raised-button id="kapcsolat">Kapcsolat</button>
+  <button mat-raised-button id="fo" (click)="navigate('')">Főmenü</button>
+  <button mat-raised-button id="akt" (click)="navigate('aktualis')">Aktuális</button>
+  <button mat-raised-button id="ref" (click)="navigate('referencia')">Referencia</button>
+  <button mat-raised-button id="idopont" (click)="navigate('idopont')">Időpontfoglalás</button>
+  <button mat-raised-button id="kapcsolat" (click)="navigate('kapcsolat')">Kapcsolat</button>
 </div>
 <div class="content">
   <router-outlet></router-outlet>

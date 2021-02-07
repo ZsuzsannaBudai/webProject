@@ -6,16 +6,29 @@
     object-fit: cover;
   }
 }
-
-.menu {
-  margin-top: 16px;
+.cim {
+  font-size: 40px;
+  color: white;
+  position: absolute;
+  top: 0;
   display: flex;
   justify-content: center;
-  border: 2px solid black;
+  width: 100%;
+  margin-top: 40px;
+  -webkit-text-stroke: 0.75px black;
+  font-weight: 500;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  border: 2px solid white;
   padding: 20px;
   border-radius: 44px;
-  margin-left: 16px;
-  margin-right: 16px;
+  margin-left: 25%;
+  margin-right: 25%;
+  position: relative;
+  top: -100px;
   > button {
     margin-left: 20px;
     margin-right: 20px;
@@ -25,4 +38,12 @@
   #fo:hover, #akt:hover, #idopont:hover, #kapcsolat:hover, #ref:hover {
     background-color: plum;
   }
+}
+
+.content {
+  height: calc(100vh - 205px);
+  background-image: url("../images/bg.jpg");
+  margin-top: -75px;
+  background-size: cover;
+
 }
